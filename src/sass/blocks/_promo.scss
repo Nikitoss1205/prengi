@@ -1,0 +1,52 @@
+.promo {
+    position: relative;
+    min-height: 700px;
+    padding: 39px 0 0;
+    background: url('../img/bg/main_bg.jpg') center (center / cover) no-repeat;
+    &__menu {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__menu {
+        list-style-type: none;
+        align-items: center;
+        margin-bottom: 0;
+    }
+    &__link {
+        font-size: 13px;
+        font-weight: 700;
+        color: #ffffff;
+        transition: 0.3s;
+        text-transform: uppercase;
+        &:hover {
+            color: $main-color;
+            text-decoration: none;
+        }
+    }
+    &__subheader {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__title {
+        margin-top: 133px;
+        width: 529px;
+        font-size: 42px;
+        font-weight: 900;
+        line-height: 1.14;
+        color: #ffffff;
+    }
+    &__label {
+        margin-top: 27px;
+        width: 426px;
+        font-size: 24px;
+        font-weight: 300;
+        line-height: 1.25;
+        color: #ffffff;
+        span {
+            text-transform: uppercase;
+        }
+    }
+    &__phone {
+        transform: translateY(27px);
+    }
+}

@@ -1,0 +1,28 @@
+.header {
+    min-height: 85px;
+    padding: 19px 0;
+    &__contacts {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__contact {
+        display: flex;
+    }
+    &__country {
+        margin-right: 11px;
+        width: 28px;
+        height: 21px;
+        margin-top: 5px;
+    }
+    &__title {
+        font-size: 14px;
+        font-weight: 700;
+        color: $header-color;
+    }
+    &__descr {
+        font-size: 12px;
+        font-weight: 300;
+        line-height: 1.5;
+        color: $header-color;
+    }
+}

@@ -1,0 +1,19 @@
+@import 'base/variables';
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+@import 'blocks/titles';
+@import 'blocks/buttons';
+@import 'blocks/header';
+@import 'blocks/promo';
+@import 'blocks/with';
+@import 'blocks/decision';
+@import 'blocks/slider';
+@import 'blocks/advantages';
+@import 'blocks/variants';
+@import 'blocks/begin';
+@import 'blocks/footer';
+
+@import 'base/media';

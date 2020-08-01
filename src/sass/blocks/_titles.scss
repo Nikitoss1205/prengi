@@ -1,0 +1,26 @@
+.title {
+    display: block;
+    margin: 0 auto;
+    width: 625px;
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 1.2;
+    text-align: center;
+    color: #ffffff;
+    &_adv {
+        color: $title-color;
+        width: 376px;
+    }
+    &_var {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 80px;
+        width: 376px;
+    }
+    &_begin {
+        color: $title-color;
+        width: 588px;
+        margin-top: 74px;
+    }
+}
